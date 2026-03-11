@@ -1,0 +1,308 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+*.mo
+*.pot
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+.pybuilder/
+target/
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.pdm.toml
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+*.sage.py
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# uv
+.venv/
+uv.lock
+
+# Poetry (if ever used)
+poetry.lock
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# React/Next.js
+.next/
+out/
+.cache/
+.parcel-cache/
+.vercel
+.turbo
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+.env.test.local
+*.env
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Memory and Storage
+data/
+storage/
+uploads/
+downloads/
+temp/
+tmp/
+cache/
+
+# Secrets and Keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+private/
+secrets/
+credentials/
+!*.example
+
+# AI/ML Models (exclude large model files, but keep code models)
+# Don't ignore backend/app/models/ - those are database models
+/models/
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+checkpoints/
+*.ckpt
+
+# Character Assets (keep structure but ignore large files)
+character/avatar/*.png
+character/avatar/*.jpg
+character/avatar/*.jpeg
+character/avatar/*.gif
+character/avatar/*.webp
+!character/avatar/.gitkeep
+character/wardrobe/*.png
+character/wardrobe/*.jpg
+character/wardrobe/*.jpeg
+!character/wardrobe/.gitkeep
+
+# NSFW Content (if stored locally)
+nsfw/
+adult_content/
+private_media/
+
+# Signal CLI
+.signal/
+signal-cli-config/
+
+# Obsidian
+.obsidian/
+
+# Docker/Podman
+*.pid
+*.seed
+*.pid.lock
+
+# Tailscale
+tailscale/
+*.tailscale
+
+# Neo4j
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+
+# Redis
+dump.rdb
+redis.log
+
+# PostgreSQL
+postgres-data/
+pgdata/
+
+# Backup files
+*.backup
+*.bak
+*.old
+backups/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Custom
+.warp/
+.claude/settings.local.json
+TODO.md
+NOTES.md
+scratch/
+sandbox/
+experiments/
